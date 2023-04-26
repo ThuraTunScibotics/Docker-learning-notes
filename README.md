@@ -29,3 +29,13 @@ npm start
 Recap Steps to run the project;
 1 - Install node & 3rd party dependencies using `npm install`
 2 - Start the prject using `npm start`
+
+### Choosing the right base image
+
+Check Node Images version list here; 
+We use the lightest node alpine `20.0.0-alpine3.17`, You can search yoursel in tag filters.
+```
+sudo docker build -t react-app .
+
+sudo docker image ls
+```
